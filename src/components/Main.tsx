@@ -15,6 +15,7 @@ const Main = () => {
             .then(res=>res.json())
             .then(json=>setProd(json))
     }
+console.log('csdmklfmksdf');
 
     useEffect(()=>{
         getProducts()
